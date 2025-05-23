@@ -12,6 +12,9 @@ class Todo extends Model
         'category_id'
     ];
 
+        public $timestamps = true;
+
+        
     /**
      * Get the user that owns the Todo
      *
