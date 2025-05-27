@@ -16,19 +16,19 @@ class UserSeeder extends Seeder
     {
         $users = [
             [
-                'name' => 'John Doe',
-                'email' => 'admin@email.com',
-                'password' => Hash::make('123')
+                'name' => 'Admin Anam',
+                'email' => 'admin@gmail.com',
+                'password' => Hash::make('12345678')
             ],
             [
-                'name' => 'creator',
-                'email' => 'creator@email.com',
-                'password' => Hash::make('123')
+                'name' => 'Creator Firman',
+                'email' => 'creator@gmail.com',
+                'password' => Hash::make('12345678')
             ],
             [
-                'name' => 'editor',
-                'email' => 'editor@email.com',
-                'password' => Hash::make('123')
+                'name' => 'Editor Putri',
+                'email' => 'editor@gmail.com',
+                'password' => Hash::make('12345678')
             ],
         ];
 

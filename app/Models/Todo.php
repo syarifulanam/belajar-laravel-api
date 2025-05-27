@@ -7,9 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Todo extends Model
 {
     protected $fillable = [
-        'name',
-        'status',
-        'category_id'
+        'name', 'status', 'category_id'
     ];
 
         public $timestamps = true;
